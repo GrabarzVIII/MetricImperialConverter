@@ -189,16 +189,144 @@ while True:
                 Enter option number...'''))
 
                 if unit_to_convert == 1:
-                    pass
+                    
+                    with True:
+                            
+                            try:
+                                conversion_to_unit = int(input('''
+                                Do you want to convert Inchs to:
+                                1. Milimeters
+                                2. Centimeters
+                                3. Meters
+                                4. Kilometers
+                                5. Return to preciosu menu
+                                Enter option number...'''))
+
+                                if conversion_to_unit == 1:
+                                    pass
+
+                                elif conversion_to_unit == 2:
+                                    pass
+
+                                elif conversion_to_unit == 3:
+                                    pass
+
+                                elif conversion_to_unit == 4:
+                                    pass
+
+                                elif conversion_to_unit == 5:
+                                    break
+
+                                else:
+                                    print('Enter correct number\n')
+
+                            except ValueError:
+                                print('Entered value need to be integral number\n')
 
                 elif unit_to_convert == 2:
-                    pass
+                    
+                    with True:
+                            
+                            try:
+                                conversion_to_unit = int(input('''
+                                Do you want to convert Foots to:
+                                1. Milimeters
+                                2. Centimeters
+                                3. Meters
+                                4. Kilometers
+                                5. Return to preciosu menu
+                                Enter option number...'''))
+
+                                if conversion_to_unit == 1:
+                                    pass
+
+                                elif conversion_to_unit == 2:
+                                    pass
+
+                                elif conversion_to_unit == 3:
+                                    pass
+
+                                elif conversion_to_unit == 4:
+                                    pass
+
+                                elif conversion_to_unit == 5:
+                                    break
+
+                                else:
+                                    print('Enter correct number\n')
+
+                            except ValueError:
+                                print('Entered value need to be integral number\n')
 
                 elif unit_to_convert == 3:
-                    pass
+                    
+                    with True:
+                            
+                            try:
+                                conversion_to_unit = int(input('''
+                                Do you want to convert Yards to:
+                                1. Milimeters
+                                2. Centimeters
+                                3. Meters
+                                4. Kilometers
+                                5. Return to preciosu menu
+                                Enter option number...'''))
+
+                                if conversion_to_unit == 1:
+                                    pass
+
+                                elif conversion_to_unit == 2:
+                                    pass
+
+                                elif conversion_to_unit == 3:
+                                    pass
+
+                                elif conversion_to_unit == 4:
+                                    pass
+
+                                elif conversion_to_unit == 5:
+                                    break
+
+                                else:
+                                    print('Enter correct number\n')
+
+                            except ValueError:
+                                print('Entered value need to be integral number\n')
 
                 elif unit_to_convert == 4:
-                    pass
+                    
+                    with True:
+                            
+                            try:
+                                conversion_to_unit = int(input('''
+                                Do you want to convert Mails to:
+                                1. Milimeters
+                                2. Centimeters
+                                3. Meters
+                                4. Kilometers
+                                5. Return to preciosu menu
+                                Enter option number...'''))
+
+                                if conversion_to_unit == 1:
+                                    pass
+
+                                elif conversion_to_unit == 2:
+                                    pass
+
+                                elif conversion_to_unit == 3:
+                                    pass
+
+                                elif conversion_to_unit == 4:
+                                    pass
+
+                                elif conversion_to_unit == 5:
+                                    break
+
+                                else:
+                                    print('Enter correct number\n')
+
+                            except ValueError:
+                                print('Entered value need to be integral number\n')
 
                 elif unit_to_convert ==5:
                     break
