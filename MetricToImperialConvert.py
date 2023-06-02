@@ -31,7 +31,19 @@ def CentimeterToMile (dimension):
     #convert centimeter to mile
     return dimension*0.0000062137
 
-print(CentimeterToInch(30))
-print(CentimeterToFoot(30))
-print(CentimeterToYard(30))
-print(CentimeterToMile(30))
+
+def MeterToInch (dimension):
+    #convert meter to inch
+    return dimension*39.37
+
+def MeterToFoot (dimension):
+    #convert meter to foot
+    return dimension*3.2808
+
+def MeterToYard (dimension):
+    #convert meter to yard
+    return dimension*1.0936
+
+def MeterToMile (dimension):
+    #convert meter to mile
+    return dimension*0.00062137
