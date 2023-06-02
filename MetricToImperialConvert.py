@@ -47,3 +47,25 @@ def MeterToYard (dimension):
 def MeterToMile (dimension):
     #convert meter to mile
     return dimension*0.00062137
+
+
+def KilometerToInch (dimension):
+    #convert kilometer to inch
+    return dimension*39370.079
+
+def KilometerToFoot (dimension):
+    #convert kilometer to foot
+    return dimension*3280.8399
+
+def KilometerToYard (dimension):
+    #convert kilometer to yard
+    return dimension*1093.6133
+
+def KilmeterToMile (dimension):
+    #convert kilometer to mile
+    return dimension*0.62137
+
+print(KilometerToInch(30))
+print(KilometerToFoot(30))
+print(KilometerToYard(30))
+print(KilmeterToMile(30))
