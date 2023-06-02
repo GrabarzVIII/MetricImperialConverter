@@ -64,8 +64,3 @@ def KilometerToYard (dimension):
 def KilmeterToMile (dimension):
     #convert kilometer to mile
     return dimension*0.62137
-
-print(KilometerToInch(30))
-print(KilometerToFoot(30))
-print(KilometerToYard(30))
-print(KilmeterToMile(30))
