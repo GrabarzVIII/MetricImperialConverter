@@ -41,16 +41,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mm')
+                                    print(MetricToImperialConvert.MilimeterToInch(dimension), 'in')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mm')
+                                    print(MetricToImperialConvert.MilimeterToFoot(dimension), 'ft')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mm')
+                                    print(MetricToImperialConvert.MilimeterToYard(dimension), 'yd')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mm')
+                                    print(MetricToImperialConvert.MilimeterToMile(dimension), 'mile')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -77,16 +93,35 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} cm')
+                                    print(MetricToImperialConvert.CentimeterToInch(dimension), 'in')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} cm')
+                                    print(MetricToImperialConvert.CentimeterToFoot(dimension), 'ft')
+                                    print('-'*40)
+
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} cm')
+                                    print(MetricToImperialConvert.CentimeterToYard(dimension), 'yd')
+                                    print('-'*40)
+
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} cm')
+                                    print(MetricToImperialConvert.CentimeterToMile(dimension), 'mile')
+                                    print('-'*40)
+
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -112,16 +147,33 @@ while True:
                                 Enter option number...'''))
                             
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} m')
+                                    print(MetricToImperialConvert.MeterToInch(dimension), 'in')
+                                    print('-'*40)
+
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} m')
+                                    print(MetricToImperialConvert.MeterToFoot(dimension), 'ft')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} m')
+                                    print(MetricToImperialConvert.MeterToYard(dimension), 'yd')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} m')
+                                    print(MetricToImperialConvert.MeterToMile(dimension), 'mile')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -147,16 +199,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} km')
+                                    print(MetricToImperialConvert.KilometerToInch(dimension), 'in')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} km')
+                                    print(MetricToImperialConvert.KilometerToFoot(dimension), 'ft')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} km')
+                                    print(MetricToImperialConvert.KilometerToYard(dimension), 'yd')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} km')
+                                    print(MetricToImperialConvert.KilmeterToMile(dimension), 'mile')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -203,16 +271,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} in')
+                                    print(ImperialToMetricConvert.InchToMilimeter(dimension), 'mm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} in')
+                                    print(ImperialToMetricConvert.InchToCentimeter(dimension), 'cm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} in')
+                                    print(ImperialToMetricConvert.InchToMeter(dimension), 'm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} in')
+                                    print(ImperialToMetricConvert.InchToKilometer(dimension), 'km')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -238,16 +322,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} ft')
+                                    print(ImperialToMetricConvert.FootToMilimeter(dimension), 'mm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} ft')
+                                    print(ImperialToMetricConvert.FootToCentimeter(dimension), 'cm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} ft')
+                                    print(ImperialToMetricConvert.FootToMeter(dimension), 'm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} ft')
+                                    print(ImperialToMetricConvert.FootToKilometer(dimension), 'km')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -273,16 +373,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} yd')
+                                    print(ImperialToMetricConvert.YardToMilimeter(dimension), 'mm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} yd')
+                                    print(ImperialToMetricConvert.YardToCentimeter(dimension), 'cm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} yd')
+                                    print(ImperialToMetricConvert.YardToMeter(dimension), 'm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} yd')
+                                    print(ImperialToMetricConvert.YardToKilometer(dimension), 'km')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
@@ -308,16 +424,32 @@ while True:
                                 Enter option number...'''))
 
                                 if conversion_to_unit == 1:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mile')
+                                    print(ImperialToMetricConvert.MileToMilimeter(dimension), 'mm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 2:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mile')
+                                    print(ImperialToMetricConvert.MileToCentimeter(dimension), 'cm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 3:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mile')
+                                    print(ImperialToMetricConvert.MileToMeter(dimension), 'm')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 4:
-                                    pass
+                                    dimension = float(input("Enter your dimension..."))
+                                    print('-'*40)
+                                    print(f'{dimension} mile')
+                                    print(ImperialToMetricConvert.MileToKilometer(dimension), 'Km')
+                                    print('-'*40)
 
                                 elif conversion_to_unit == 5:
                                     break
