@@ -47,3 +47,20 @@ def YardToMeter (dimension):
 def YardToKilometer (dimension):
     #convert yard to kilometer
     return dimension*0.0009144
+
+
+def MileToMilimeter (dimension):
+    #convert mile to milimeter
+    return dimension*1609350
+
+def MileToCentimeter (dimension):
+    #convert miel to centimeter
+    return dimension*160935
+
+def MileToMeter (dimension):
+    #convert mile to meter
+    return dimension*1609.35
+
+def MileToKilometer (dimension):
+    #convert mile to kilometer
+    return dimension*1.60935
