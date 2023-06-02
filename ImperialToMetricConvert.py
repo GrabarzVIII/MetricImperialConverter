@@ -30,3 +30,20 @@ def FootToMeter (dimension):
 def FootToKilometer (dimension):
     #convert foot to kilometer
     return dimension*0.0003048
+
+
+def YardToMilimeter (dimension):
+    #convert yard to milimeter
+    return dimension*914.4
+
+def YardToCentimeter (dimension):
+    #convert yard to centimeter
+    return dimension*91.44
+
+def YardToMeter (dimension):
+    #convert yard to meter
+    return dimension*0.9144
+
+def YardToKilometer (dimension):
+    #convert yard to kilometer
+    return dimension*0.0009144
