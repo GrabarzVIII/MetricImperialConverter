@@ -15,9 +15,9 @@ def get_choice(options):
         else:
             print('Wrnog value entered')
 
-def convertion(conv_value, dimension, value_to_convert):
-    convertion_function_tuple = convertion_function_dictionary[conv_value]
-    convertion_function = convertion_function_tuple[value_to_convert]
+def convertion(unit_to_convert, dimension, converted_unit):
+    convertion_function_tuple = convertion_function_dictionary[unit_to_convert]
+    convertion_function = convertion_function_tuple[converted_unit]
     return convertion_function(dimension)
 
 metric_units_list = ['mm','cm','m','km']
@@ -38,38 +38,38 @@ convertion_function_dictionary = {
 
 while True:
     print('What do you want to convert?')
-    choice_1 = get_choice(metric_units_list + imperial_units_list + end)
+    unit_to_convert = get_choice(metric_units_list + imperial_units_list + end)
 
-    if 1 <= choice_1 <= len(metric_units_list + imperial_units_list + end):
+    if 1 <= unit_to_convert <= len(metric_units_list + imperial_units_list + end):
 
         
 
-        if 1 <= choice_1 <= 4:
+        if 1 <= unit_to_convert <= 4:
 
             enter_dimension = float(input('Enter your dimension: '))
 
             print('Do you want to convert to?')
-            choice_2 = get_choice(imperial_units_list + end)
+            converted_unit = get_choice(imperial_units_list + end)
 
-            if choice_2 == len(metric_units_list + end):
+            if converted_unit == len(metric_units_list + end):
                 break
 
-            print(convertion(choice_1, enter_dimension, choice_2))
+            print(convertion(unit_to_convert, enter_dimension, choice_2))
 
-        elif 4 < choice_1 <= len(metric_units_list + imperial_units_list + end) - 1:
+        elif 4 < unit_to_convert <= len(metric_units_list + imperial_units_list + end) - 1:
 
             enter_dimension = float(input('Enter your dimension: '))
 
             print('Do you want to convert to?')
-            choice_2 = get_choice(imperial_units_list + end)
+            converted_unit = get_choice(imperial_units_list + end)
 
-            if choice_2 == len(metric_units_list + end):
+            if converted_unit == len(metric_units_list + end):
                 break
 
-            print(convertion(choice_1, enter_dimension, choice_2))
+            print(convertion(unit_to_convert, enter_dimension, choice_2))
 
 
-        elif choice_1 == len(metric_units_list + imperial_units_list + end):
+        elif unit_to_convert == len(metric_units_list + imperial_units_list + end):
             break
 
     else:
