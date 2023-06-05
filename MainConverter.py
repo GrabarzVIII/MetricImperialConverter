@@ -54,7 +54,7 @@ while True:
             if converted_unit == len(metric_units_list + end):
                 break
 
-            print(convertion(unit_to_convert, enter_dimension, choice_2))
+            print(convertion(unit_to_convert, enter_dimension, converted_unit))
 
         elif 4 < unit_to_convert <= len(metric_units_list + imperial_units_list + end) - 1:
 
@@ -66,7 +66,7 @@ while True:
             if converted_unit == len(metric_units_list + end):
                 break
 
-            print(convertion(unit_to_convert, enter_dimension, choice_2))
+            print(convertion(unit_to_convert, enter_dimension, converted_unit))
 
 
         elif unit_to_convert == len(metric_units_list + imperial_units_list + end):
